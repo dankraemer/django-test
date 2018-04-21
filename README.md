@@ -29,3 +29,5 @@ Test basic django deploy and application
 - Check on Browser http://localhost:8000/admin
 - On terminal, create a superuser:
   $ python manage.py createsuperuser --username=dka --email=dka@gmail.com
+- Create an Application
+  $ python manage.py startapp posts
